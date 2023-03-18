@@ -1,0 +1,54 @@
+    /*Sessão About*/
+
+section.about{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-left: 5%;
+}
+
+h3.about__title  {
+    width: 166px;
+    height: 38px;
+    font-family: 'Amatic sc', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+p.about__paragraph{
+    font-family: 'Amatic sc', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 19px;
+}
+
+@media only screen and (max-width: 600px) {
+    .about__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 300px;
+    margin: 1%;
+    }
+    h3.about__title {
+        margin: 1%;
+    }
+}
+
+    /*tablet*/
+
+
+@media only screen and (max-width: 820px) {
+    section.about {
+        margin: 0;
+    }
+    .about__container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    }
+}
